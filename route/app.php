@@ -18,3 +18,7 @@ Route::get('hello/:name', 'index/hello');
 
 
 Route::get('lgana/:name','index/lgana');
+
+/**
+ * Route::rule('路由表达式','路由地址','请求类型');
+ */
